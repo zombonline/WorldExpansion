@@ -6,4 +6,4 @@ worldborder add 5
 say The world border grows!
 
 # check again in case enough points were deposited at once to trigger multiple jumps
-function dp:check_threshold
+function we:check_threshold
