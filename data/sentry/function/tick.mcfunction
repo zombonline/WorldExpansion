@@ -1,0 +1,1 @@
+execute if items block 172 76 -75 container.* minecraft:diamond run function border:diamond
