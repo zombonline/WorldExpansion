@@ -1,1 +1,1 @@
-execute as @e[type=minecraft:marker,tag=world_forge] at @s unless block ~ ~-1 ~ minecraft:furnace[lit=true] run setblock ~ ~-1 ~ minecraft:furnace[lit=true]
+execute as @e[type=minecraft:marker,tag=world_forge] at @s unless block ~ ~-1 ~ minecraft:furnace run setblock ~ ~-1 ~ minecraft:furnace{custom_name:'{"text":"World Forge","color":"gold","bold":true}'}
