@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:marker,tag=world_forge] at @s unless block ~ ~-1 ~ minecraft:furnace run setblock ~ ~-1 ~ minecraft:furnace
