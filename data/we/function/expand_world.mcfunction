@@ -11,3 +11,5 @@ execute if score WorldLevel world matches 31..40 run scoreboard players add Targ
 execute if score WorldLevel world matches 41..50 run scoreboard players add Target world 5
 execute if score WorldLevel world matches 51..100 run scoreboard players add Target world 1
 scoreboard players add WorldLevel world 1
+
+function we:check_for_expansion
