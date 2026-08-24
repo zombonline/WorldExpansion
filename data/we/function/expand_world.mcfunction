@@ -10,3 +10,4 @@ execute if score WorldLevel world matches 21..30 run scoreboard players add Targ
 execute if score WorldLevel world matches 31..40 run scoreboard players add Target world 10
 execute if score WorldLevel world matches 41..50 run scoreboard players add Target world 5
 execute if score WorldLevel world matches 51..100 run scoreboard players add Target world 1
+execute if score WorldLevel world matches 101.. run scoreboard players add WorldLevel world 1
