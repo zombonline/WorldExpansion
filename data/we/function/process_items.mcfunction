@@ -6,6 +6,8 @@ execute as @e[type=minecraft:marker,tag=world_forge] at @s run function we:proce
 execute as @e[type=minecraft:marker,tag=world_forge] at @s run function we:process_item {item:"minecraft:redstone",value:3}
 
 execute as @e[type=minecraft:marker,tag=world_forge] at @s run function we:process_item {item:"minecraft:ancient_debris",value:500}
+execute as @e[type=minecraft:marker,tag=world_forge] at @s run function we:process_item {item:"minecraft:amethyst_shard",value:40}
+
 execute as @e[type=minecraft:marker,tag=world_forge] at @s run function we:process_item {item:"minecraft:echo_shard",value:450}
 execute as @e[type=minecraft:marker,tag=world_forge] at @s run function we:process_item {item:"minecraft:nether_star",value:2000}
 execute as @e[type=minecraft:marker,tag=world_forge] at @s run function we:process_item {item:"minecraft:heavy_core",value:5000}
