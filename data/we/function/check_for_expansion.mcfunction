@@ -1,5 +1,6 @@
 execute if score world world matches 100.. run worldborder add 10
 execute if score world world matches 100.. run say World Expansion has been triggered! The world border has been expanded by 10 blocks.
 execute if score world world matches 100.. run scoreboard players remove world world 100
+function we:increase_bar
 
 execute if score world world matches 100.. run function we:check_for_expansion
