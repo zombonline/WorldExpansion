@@ -1,5 +1,5 @@
 worldborder add 50
-
+function we:celebrate
 tellraw @a {"text":"World Expansion has been triggered! The world border has been expanded by 50 blocks.","color":"green"}
 
 scoreboard players operation Current world -= Target world
