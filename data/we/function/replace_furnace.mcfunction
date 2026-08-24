@@ -1,1 +1,1 @@
-execute as @e[type=minecraft:marker,tag=world_forge] at @s unless block ~ ~-1 ~ minecraft:furnace run setblock ~ ~-1 ~ minecraft:furnace{custom_name:'{"text":"World Forge","color":"gold","bold":true}'}
+execute as @e[type=minecraft:marker,tag=world_forge] at @s run data merge block ~ ~-1 ~ {CustomName:'{"text":"World Forge","color":"gold","bold":true}'}
