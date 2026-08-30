@@ -28,6 +28,6 @@ execute as @e[type=minecraft:marker,tag=world_forge] at @s run function we:proce
 
 execute as @e[type=minecraft:marker,tag=world_forge] at @s run function we:process_item {item:"minecraft:gunpowder",value:3,low_value:1,cap:500,id:"gunpowder"}
 
-execute as @e[type=minecraft:marker,tag=world_forge] at @s run function we:process_item {item:"minecraft:ghast_tear",value:8,low_value:4,cap:500,id:"ghast_tear"}
+execute as @e[type=minecraft:marker,tag=world_forge] at @s run function we:process_item {item:"minecraft:ghast_tear",value:80,low_value:16,cap:500,id:"ghast_tear"}
 
-execute as @e[type=minecraft:marker,tag=world_forge] at @s run function we:process_item {item:"minecraft:blaze_rod",value:4,low_value:2,cap:1000,id:"blaze_rod"}
+execute as @e[type=minecraft:marker,tag=world_forge] at @s run function we:process_item {item:"minecraft:blaze_rod",value:50,low_value:10,cap:1000,id:"blaze_rod"}
