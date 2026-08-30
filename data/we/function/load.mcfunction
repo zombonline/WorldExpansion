@@ -1,4 +1,6 @@
 say Loading World Expansion for Sentry
+scoreboard objectives add we_items_forged dummy
+scoreboard objectives add we_items_forged_daily dummy
 scoreboard objectives add world dummy "World Score"
 scoreboard objectives add temp dummy
 scoreboard objectives add forge_timer dummy
