@@ -1,0 +1,17 @@
+scoreboard players set diamond we_items_forged_daily 0
+scoreboard players set iron we_items_forged_daily 0
+scoreboard players set gold we_items_forged_daily 0
+scoreboard players set coal we_items_forged_daily 0
+scoreboard players set redstone we_items_forged_daily 0
+scoreboard players set copper we_items_forged_daily 0
+scoreboard players set lapis we_items_forged_daily 0
+scoreboard players set ancient_debris we_items_forged_daily 0
+scoreboard players set amethyst we_items_forged_daily 0
+scoreboard players set echo_shard we_items_forged_daily 0
+scoreboard players set nether_star we_items_forged_daily 0
+scoreboard players set heavy_core we_items_forged_daily 0
+scoreboard players set nautilus_shell we_items_forged_daily 0
+scoreboard players set rotten_flesh we_items_forged_daily 0
+scoreboard players set gunpowder we_items_forged_daily 0
+scoreboard players set ghast_tear we_items_forged_daily 0
+scoreboard players set blaze_rod we_items_forged_daily 0
