@@ -5,7 +5,8 @@ scoreboard players operation BarPercent temp *= hundred temp
 scoreboard players operation BarPercent temp /= Target world
 scoreboard players operation progress temp = Target world
 scoreboard players operation progress temp -= Current world
-scoreboard players display name progress we_items_forged [{"text":"Power up in: ","color":"gray"},{"score":{"name":"progress","objective":"temp"},"color":"gold","bold":true}]
+scoreboard players display name progress we_items_forged [{"text":"Power required: ","color":"gray"},{"score":{"name":"progress","objective":"temp"},"color":"gold","bold":true}]
+scoreboard players display name level we_items_forged [{"text":"Current Level: ","color":"gray"},{"score":{"name":"WorldLevel","objective":"world"},"color":"green","bold":true}]
 
 execute as @e[type=minecraft:marker,tag=world_forge_bar_marker] at @s run kill @e[type=minecraft:item_display,tag=world_forge_bar,distance=..0.1]
 execute as @e[type=minecraft:marker,tag=world_forge_bar_marker] at @s if score BarPercent temp matches 0..4 run summon minecraft:item_display ~ ~ ~ {Tags:["world_forge_bar"],item:{id:"minecraft:paper",components:{"minecraft:item_model":"we:world_forge_bar"}},brightness:{block:15,sky:15},transformation:[0.9f,0f,0f,0f,0f,0.05f,0f,0.025f,0f,0f,0.9f,0f,0f,0f,0f,1f]}
