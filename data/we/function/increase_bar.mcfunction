@@ -3,8 +3,8 @@
 scoreboard players operation BarPercent temp = Current world
 scoreboard players operation BarPercent temp *= hundred temp
 scoreboard players operation BarPercent temp /= Target world
-scoreboard players operation progress temp = Current world
-scoreboard players operation progress temp -= Target world
+scoreboard players operation progress temp = Target world
+scoreboard players operation progress temp -= Current world
 scoreboard players display name progress we_items_forged [{"text":"Power up in: ","color":"gray"},{"score":{"name":"progress","objective":"temp"},"color":"gold","bold":true}]
 
 execute as @e[type=minecraft:marker,tag=world_forge_bar_marker] at @s run kill @e[type=minecraft:item_display,tag=world_forge_bar,distance=..0.1]
