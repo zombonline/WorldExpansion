@@ -12,7 +12,7 @@ execute as @e[type=minecraft:marker,tag=world_forge] at @s run function we:proce
 
 execute as @e[type=minecraft:marker,tag=world_forge] at @s run function we:process_item {item:"minecraft:lapis_lazuli",value:8,low_value:4,cap:300,id:"lapis",scoreboard:"we_item_display_1",display:"Lapis Lazuli",color:"#2667FF"}
 
-execute as @e[type=minecraft:marker,tag=world_forge] at @s run function we:process_item {item:"minecraft:ancient_debris",value:500,low_value:250,cap:200,id:"ancient_debris",scoreboard:"we_item_display_1",display:"Ancient Debris",color:"#5C4033"}
+execute as @e[type=minecraft:marker,tag=world_forge] at @s run function we:process_item {item:"minecraft:ancient_debris",value:2200,low_value:1600,cap:200,id:"ancient_debris",scoreboard:"we_item_display_1",display:"Ancient Debris",color:"#5C4033"}
 
 execute as @e[type=minecraft:marker,tag=world_forge] at @s run function we:process_item {item:"minecraft:amethyst_shard",value:40,low_value:20,cap:200,id:"amethyst",scoreboard:"we_item_display_1",display:"Amethyst Shard",color:"#9966CC"}
 
