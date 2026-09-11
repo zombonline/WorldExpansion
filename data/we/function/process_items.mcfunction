@@ -1,4 +1,4 @@
-execute as @e[type=minecraft:marker,tag=world_forge] at @s run function we:process_item {item:"minecraft:diamond",value:250,low_value:125,cap:500,id:"diamond",scoreboard:"we_item_display_1",display:"Diamonds",color:"#4DEEEA"}
+execute as @e[type=minecraft:marker,tag=world_forge] at @s run function we:process_item {item:"minecraft:diamond",value:250,low_value:125,cap:500,id:"diamond",scoreboard:"we_item_display_1",display:"Diamond",color:"#4DEEEA"}
 
 execute as @e[type=minecraft:marker,tag=world_forge] at @s run function we:process_item {item:"minecraft:iron_ingot",value:15,low_value:7,cap:500,id:"iron",scoreboard:"we_item_display_1",display:"Iron Ingot",color:"#D8D8D8"}
 
