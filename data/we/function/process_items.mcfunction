@@ -18,13 +18,13 @@ execute as @e[type=minecraft:marker,tag=world_forge] at @s run function we:proce
 
 execute as @e[type=minecraft:marker,tag=world_forge] at @s run function we:process_item {item:"minecraft:echo_shard",value:450,low_value:225,cap:100,id:"echo_shard",scoreboard:"we_item_display_1",display:"Echo Shard",color:"#3A9B9B"}
 
-execute as @e[type=minecraft:marker,tag=world_forge] at @s run function we:process_item {item:"minecraft:nether_star",value:12500,low_value:6125,cap:30,id:"nether_star",scoreboard:"we_item_display_1",display:"Nether Star",color:"#E6FFFF"}
+execute as @e[type=minecraft:marker,tag=world_forge] at @s run function we:process_item {item:"minecraft:nether_star",value:5000,low_value:3000,cap:30,id:"nether_star",scoreboard:"we_item_display_1",display:"Nether Star",color:"#E6FFFF"}
 
-execute as @e[type=minecraft:marker,tag=world_forge] at @s run function we:process_item {item:"minecraft:heavy_core",value:25000,low_value:12500,cap:10,id:"heavy_core",scoreboard:"we_item_display_1",display:"Heavy Core",color:"#555555"}
+execute as @e[type=minecraft:marker,tag=world_forge] at @s run function we:process_item {item:"minecraft:heavy_core",value:15000,low_value:10000,cap:10,id:"heavy_core",scoreboard:"we_item_display_1",display:"Heavy Core",color:"#555555"}
 
-execute as @e[type=minecraft:marker,tag=world_forge] at @s run function we:process_item {item:"minecraft:trial_key",value:2500,low_value:1250,cap:50,id:"trial_key",scoreboard:"we_item_display_1",display:"Trial Key",color:"#4B8BBE"}
+execute as @e[type=minecraft:marker,tag=world_forge] at @s run function we:process_item {item:"minecraft:trial_key",value:800,low_value:600,cap:50,id:"trial_key",scoreboard:"we_item_display_1",display:"Trial Key",color:"#4B8BBE"}
 
-execute as @e[type=minecraft:marker,tag=world_forge] at @s run function we:process_item {item:"minecraft:ominous_trial_key",value:10000,low_value:5000,cap:20,id:"ominous_trial_key",scoreboard:"we_item_display_1",display:"Ominous Trial Key",color:"#5B2C83"}
+execute as @e[type=minecraft:marker,tag=world_forge] at @s run function we:process_item {item:"minecraft:ominous_trial_key",value:1500,low_value:1100,cap:20,id:"ominous_trial_key",scoreboard:"we_item_display_1",display:"Ominous Trial Key",color:"#5B2C83"}
 
 execute as @e[type=minecraft:marker,tag=world_forge] at @s run function we:process_item {item:"minecraft:nautilus_shell",value:75,low_value:35,cap:1000,id:"nautilus_shell",scoreboard:"we_item_display_1",display:"Nautilus Shell",color:"#D9B38C"}
 
