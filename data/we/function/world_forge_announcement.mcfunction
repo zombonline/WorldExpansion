@@ -1,0 +1,2 @@
+$tellraw @a [{"text":"[World Forge] ","color":"aqua","bold":true},{"text":"$(message)","color":"$(color)","italic":true}]
+execute as @a at @s run playsound minecraft:block.amethyst_block.resonate master @s ~ ~ ~ 1 .3
